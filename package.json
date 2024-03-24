@@ -1,0 +1,23 @@
+{
+  "name": "project-base-learning",
+  "version": "1.0.0",
+  "description": "a backend code",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Akash",
+  "license": "ISC",
+  "dependencies": {
+    "git": "^0.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  }
+}
