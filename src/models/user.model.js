@@ -40,7 +40,7 @@ const userSchema = new Schema({
   ],
 
   password:{
-    type : String,
+    type : String,  
     required: [true, 'Password is required']
   },
 
@@ -87,6 +87,7 @@ userSchema.methods.genrateRefreshToken= function(){
     }
   )
 }
+
 
 
 userSchema.methods.refreshToken = function(){}
